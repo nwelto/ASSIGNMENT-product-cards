@@ -1,0 +1,43 @@
+#cardsContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 30%;
+  border-color: lightblue;
+ 
+}
+
+.header{
+  border: dashed lightgrey;
+  border-width: thin;
+  padding: 0.6em;
+  font-weight: 500;
+}
+
+.availability{
+  background-color: grey;
+  color: yellow;
+  padding-left: 10px;
+
+}
+
+.card-body{
+  padding: 0;
+  }
+
+.card-text{
+  text-align: justify;
+  margin: 1em;
+}
+
+.expiration{
+  font-size: xx-small;
+}
+
+.specfont{
+  font-size: larger;
+  font-weight: 500;
+}
